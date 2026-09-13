@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MyPsych — Latihan Psikotes Gratis</title>
+<meta name="description" content="Latihan psikotes kerja dengan tracking progres, grafik performa, dan laporan PDF gratis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     1. NAVBAR
+     ============================================================ -->
+<nav class="navbar">
+  <div class="container navbar-inner">
+    <a href="#" class="nav-brand">
+      <span class="brand-dot"></span>
+      <span class="brand-text">MyPsych</span>
+    </a>
+    <div class="nav-links">
+      <a href="#kraepelin">Kraepelin</a>
+      <a href="#kategori">Kategori</a>
+      <a href="#fitur">Fitur</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div class="nav-actions">
+      <a href="#" class="btn-ghost">Masuk</a>
+      <a href="#" class="btn-primary">Daftar</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================================================
+     2. HERO
+     ============================================================ -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="badge-pill">
+        <span class="badge-dot"></span>
+        100% Gratis · Tanpa Paywall
+      </span>
+      <h1>Latihan setiap hari, <br><span class="text-blue">pantau perkembanganmu</span> sampai lulus.</h1>
+      <p class="hero-sub">
+        Gratis, tanpa paywall. Tanpa kartu kredit. Tanpa batas.
+        Laporan PDF dan grafik performa untuk setiap latihan — termasuk Kraepelin.
+      </p>
+      <div class="hero-cta">
+        <a href="#" class="btn-primary btn-lg">Mulai Latihan Gratis →</a>
+        <a href="#kategori" class="btn-secondary btn-lg">Lihat Semua Tes</a>
+      </div>
+      <p class="hero-note">
+        Sudah dipercaya <strong>[X]</strong> peserta · <strong>[Y]</strong> tes dikerjakan
+      </p>
+    </div>
+
+    <div class="hero-visual">
+      <div class="mockup-browser">
+        <div class="mockup-toolbar">
+          <span class="toolbar-dot red"></span>
+          <span class="toolbar-dot yellow"></span>
+          <span class="toolbar-dot green"></span>
+          <span class="mockup-url">my-psych-five.vercel.app</span>
+        </div>
+        <div class="mockup-content">
+          <div class="mockup-header">
+            <span class="mockup-brand">🧠 MyPsych</span>
+            <span class="mockup-user">testbg</span>
+          </div>
+          <div class="mockup-greeting">
+            <span class="mockup-eyebrow">HOME</span>
+            <h4>Pilih latihan yang mau kamu kerjakan.</h4>
+          </div>
+          <div class="mockup-stats">
+            <div class="mockup-stat">
+              <span class="mockup-stat-label">Total tes</span>
+              <strong>24</strong>
+            </div>
+            <div class="mockup-stat">
+              <span class="mockup-stat-label">Skor terakhir</span>
+              <strong>85%</strong>
+            </div>
+            <div class="mockup-stat">
+              <span class="mockup-stat-label">Kecepatan</span>
+              <strong>92%</strong>
+            </div>
+          </div>
+          <div class="mockup-chart">
+            <div class="mockup-chart-head">
+              <span class="mockup-chart-title">Perkembangan Skor</span>
+              <span class="mockup-chart-badge">30 hari</span>
+            </div>
+            <div class="mockup-chart-bars">
+              <div class="mockup-bar" style="--h:42%"></div>
+              <div class="mockup-bar" style="--h:58%"></div>
+              <div class="mockup-bar" style="--h:52%"></div>
+              <div class="mockup-bar" style="--h:72%"></div>
+              <div class="mockup-bar" style="--h:78%"></div>
+              <div class="mockup-bar" style="--h:84%"></div>
+              <div class="mockup-bar mockup-bar-current" style="--h:92%"></div>
+            </div>
+            <div class="mockup-chart-labels">
+              <span>Mgg 1</span><span>Mgg 2</span><span>Mgg 3</span><span>Mgg 4</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mockup-glow"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     3. TRUST BAR
+     ============================================================ -->
+<section class="trust-bar">
+  <div class="container trust-grid">
+    <div class="trust-item">
+      <strong>[X]</strong>
+      <span>Peserta aktif</span>
+    </div>
+    <div class="trust-item">
+      <strong>[Y]</strong>
+      <span>Tes dikerjakan</span>
+    </div>
+    <div class="trust-item">
+      <strong>[Z]</strong>
+      <span>Soal tersedia</span>
+    </div>
+    <div class="trust-item">
+      <strong>∞</strong>
+      <span>Gratis selamanya</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     4. KRAEPELIN HIGHLIGHT
+     ============================================================ -->
+<section class="kraepelin" id="kraepelin">
+  <div class="container kraepelin-grid">
+    <div class="kraepelin-copy">
+      <span class="badge-hot">🔥 TES ANDALAN</span>
+      <h2>Kraepelin. <br>50 kolom. 13 menit. <span class="text-blue">Siap?</span></h2>
+      <p>
+        Tes paling ditakuti di seleksi kerja Indonesia. Lima puluh kolom angka
+        yang harus kamu jumlahkan dengan ritme cepat. Latih kecepatan,
+        ketelitian, konsistensi, dan ketahanan mentalmu di sini —
+        gratis, tanpa batas.
+      </p>
+      <ul class="kraepelin-stats">
+        <li><span class="stat-num">50</span> kolom × 26 soal</li>
+        <li><span class="stat-num">15</span> detik per soal</li>
+        <li><span class="stat-num">4</span> dimensi analisis</li>
+      </ul>
+      <a href="#" class="btn-primary btn-lg">Coba Kraepelin Sekarang →</a>
+    </div>
+
+    <div class="kraepelin-visual">
+      <div class="kraepelin-card">
+        <div class="kraepelin-card-top">
+          <span class="kraepelin-label">JUMLAHKAN</span>
+          <span class="kraepelin-timer">
+            <span class="timer-value">15</span><span class="timer-unit">s</span>
+          </span>
+        </div>
+        <div class="kraepelin-numbers">
+          <div class="kraepelin-num">7</div>
+          <div class="kraepelin-op">+</div>
+          <div class="kraepelin-num">8</div>
+          <div class="kraepelin-op">=</div>
+          <div class="kraepelin-input">
+            <span class="cursor"></span>
+          </div>
+        </div>
+        <div class="kraepelin-progress">
+          <div class="kraepelin-progress-fill"></div>
+        </div>
+        <div class="kraepelin-footer">
+          <span>Soal 12 / 26</span>
+          <span>Kolom 3 / 50</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     5. KATEGORI
+     ============================================================ -->
+<section class="categories" id="kategori">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">KATEGORI TES</span>
+      <h2>Pilih sesuai kebutuhanmu.</h2>
+      <p class="section-sub">
+        Empat kategori tes untuk membantu kamu siap menghadapi berbagai jenis
+        seleksi kerja. Semua gratis, semua bisa diulang tanpa batas.
+      </p>
+    </div>
+
+    <div class="category-grid">
+      <article class="category-card category-active">
+        <div class="category-icon">🧮</div>
+        <h3>Tes Andalan</h3>
+        <p>Kraepelin — tes ritme kerja paling ikonik di seleksi Indonesia.</p>
+        <div class="category-meta">
+          <span class="category-count">1 tes</span>
+          <span class="category-time">13 menit</span>
+        </div>
+        <a href="#" class="category-link">Jelajahi →</a>
+      </article>
+
+      <article class="category-card category-active">
+        <div class="category-icon">🧠</div>
+        <h3>Tes Penalaran</h3>
+        <p>Kuantitatif, Numerical, Verbal, Silogisme, Analogi, Kognitif.</p>
+        <div class="category-meta">
+          <span class="category-count">6 tes</span>
+          <span class="category-time">10–15 menit</span>
+        </div>
+        <a href="#" class="category-link">Jelajahi →</a>
+      </article>
+
+      <article class="category-card category-coming">
+        <span class="badge-coming">SEGERA</span>
+        <div class="category-icon">🧩</div>
+        <h3>Tes Kepribadian</h3>
+        <p>Kenali gayamu lewat DISC mini dan RIASEC mini.</p>
+        <div class="category-meta">
+          <span class="category-count">—</span>
+          <span class="category-time">Coming Soon</span>
+        </div>
+        <a href="#" class="category-link">Beri tahu saya →</a>
+      </article>
+
+      <article class="category-card category-coming">
+        <span class="badge-coming">SEGERA</span>
+        <div class="category-icon">⚖️</div>
+        <h3>Tes Situasional</h3>
+        <p>Situational Judgement dan Etika Kerja untuk posisi manajerial.</p>
+        <div class="category-meta">
+          <span class="category-count">—</span>
+          <span class="category-time">Coming Soon</span>
+        </div>
+        <a href="#" class="category-link">Beri tahu saya →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     6. FITUR UNGGULAN
+     ============================================================ -->
+<section class="features" id="fitur">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">YANG MEMBEDAKAN</span>
+      <h2>Bukan cuma tes — tapi alat latihan.</h2>
+      <p class="section-sub">
+        Setiap latihan tercatat, setiap perkembangan terlihat. Semua tanpa biaya.
+      </p>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="feature-icon">📈</div>
+        <h3>Tracking Progres</h3>
+        <p>Lihat skormu naik dari minggu ke minggu. Setiap latihan tercatat otomatis di akunmu.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📄</div>
+        <h3>Laporan PDF</h3>
+        <p>Gratis, tanpa watermark. Bisa langsung dilampirkan ke CV atau portofolio lamaranmu.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📊</div>
+        <h3>Grafik 4 Dimensi</h3>
+        <p>Kecepatan, ketelitian, konsistensi, dan ketahanan — empat dimensi dalam satu grafik.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     7. PREVIEW HASIL
+     ============================================================ -->
+<section class="preview-result">
+  <div class="container preview-grid">
+    <div class="preview-copy">
+      <span class="section-eyebrow">SETELAH 4× LATIHAN</span>
+      <h2>Perkembanganmu, dalam satu grafik.</h2>
+      <p>
+        Skor Kraepelin naik dari <strong>35%</strong> → <strong>60%</strong> →
+        <strong>72%</strong> → <strong>85%</strong> dalam sebulan.
+        Kamu bisa lihat sendiri perkembangannya — bukan cuma angka hari ini.
+      </p>
+      <ul class="preview-points">
+        <li>Histori lengkap setiap sesi</li>
+        <li>Grafik per kolom untuk Kraepelin</li>
+        <li>Perbandingan dengan skor rata-rata</li>
+      </ul>
+    </div>
+
+    <div class="preview-visual">
+      <div class="preview-card">
+        <div class="preview-card-head">
+          <div>
+            <span class="preview-card-label">Perkembangan Skor Kraepelin</span>
+            <span class="preview-card-period">4 minggu terakhir</span>
+          </div>
+          <span class="preview-card-badge">+50%</span>
+        </div>
+        <div class="preview-bars">
+          <div class="preview-bar-group">
+            <div class="preview-bar" style="--h:35%"></div>
+            <span>Mgg 1</span>
+          </div>
+          <div class="preview-bar-group">
+            <div class="preview-bar" style="--h:60%"></div>
+            <span>Mgg 2</span>
+          </div>
+          <div class="preview-bar-group">
+            <div class="preview-bar" style="--h:72%"></div>
+            <span>Mgg 3</span>
+          </div>
+          <div class="preview-bar-group">
+            <div class="preview-bar preview-bar-current" style="--h:85%"></div>
+            <span>Mgg 4</span>
+          </div>
+        </div>
+        <div class="preview-card-foot">
+          <div class="preview-stat">
+            <span>Kecepatan</span>
+            <strong>92%</strong>
+          </div>
+          <div class="preview-stat">
+            <span>Ketelitian</span>
+            <strong>88%</strong>
+          </div>
+          <div class="preview-stat">
+            <span>Konsistensi</span>
+            <strong>84%</strong>
+          </div>
+          <div class="preview-stat">
+            <span>Ketahanan</span>
+            <strong>90%</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     8. ALAT CV ATS
+     ============================================================ -->
+<section class="cv-ats">
+  <div class="container cv-grid">
+    <div class="cv-copy">
+      <span class="badge-coming-lg">🎁 ALAT BANTU KARIER · SEGERA</span>
+      <h2>Bikin CV ATS-friendly dalam 5 menit.</h2>
+      <p>
+        Isi kolom pertanyaan sederhana, sistem akan menyusun CV yang lolos
+        <strong>ATS (Applicant Tracking System)</strong> — standar yang
+        dipakai HRD modern.
+      </p>
+      <div class="ppf-timeline">
+        <div class="ppf-step">
+          <span class="ppf-label">PAST</span>
+          <span class="ppf-text">Pengalaman &amp; latar belakang</span>
+        </div>
+        <div class="ppf-step">
+          <span class="ppf-label">PRESENT</span>
+          <span class="ppf-text">Keahlian &amp; posisi sekarang</span>
+        </div>
+        <div class="ppf-step">
+          <span class="ppf-label">FUTURE</span>
+          <span class="ppf-text">Arah karier 5 tahun ke depan</span>
+        </div>
+      </div>
+      <a href="#" class="btn-secondary btn-lg">Beri tahu saya saat siap →</a>
+    </div>
+    <div class="cv-visual">
+      <div class="cv-preview">
+        <div class="cv-preview-line long"></div>
+        <div class="cv-preview-line medium"></div>
+        <div class="cv-preview-line short"></div>
+        <div class="cv-preview-gap"></div>
+        <div class="cv-preview-line long"></div>
+        <div class="cv-preview-line medium"></div>
+        <div class="cv-preview-line short"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     9. KENAPA GRATIS
+     ============================================================ -->
+<section class="why-free">
+  <div class="container">
+    <div class="why-card">
+      <h2>Kenapa gratis?</h2>
+      <p>
+        Kami percaya persiapan karier seharusnya tidak menjadi kemewahan.
+        Banyak platform menjual hasil tes di belakang paywall — di sini,
+        semua terbuka.
+      </p>
+      <p>
+        Gratisnya bukan karena kualitas rendah, tapi karena kami ingin kamu
+        <strong>fokus latihan, bukan fokus bayar</strong>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     10. TENTANG KAMI
+     ============================================================ -->
+<section class="about" id="tentang">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">TENTANG KAMI</span>
+      <h2>Dari frustrasi, jadi sesuatu yang berguna.</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="timeline-year">2024</span>
+        <div class="timeline-body">
+          <h3>Awal mula</h3>
+          <p>
+            Dimulai dari frustrasi saat cari tempat latihan psikotes gratis.
+            Banyak yang bayar, banyak yang tidak jujur tentang kualitasnya.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-year">2025</span>
+        <div class="timeline-body">
+          <h3>Dibangun</h3>
+          <p>
+            MyPsych dibangun sebagai project open development — setiap fitur
+            dipikirkan dari sisi calon peserta psikotes, bukan dari sisi bisnis.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item timeline-item-current">
+        <span class="timeline-year">2026</span>
+        <div class="timeline-body">
+          <h3>Sekarang</h3>
+          <p>
+            <strong>[X]</strong> peserta aktif, <strong>[Y]</strong> tes dikerjakan.
+            Semua gratis, semua terbuka. Dan ini baru awal.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     11. FAQ
+     ============================================================ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">PERTANYAAN UMUM</span>
+      <h2>Yang sering ditanyakan.</h2>
+    </div>
+
+    <div class="faq-list">
+      <details class="faq-item" open>
+        <summary>Gratisnya beneran?</summary>
+        <p>Ya. Semua tes, semua laporan PDF, semua grafik. Tanpa paywall, tanpa iklan, tanpa batas harian.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Butuh daftar akun?</summary>
+        <p>Tidak wajib. Bisa langsung coba sebagai Tamu. Daftar akun kalau mau histori dan progresmu tersimpan otomatis.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Data saya dijual ke pihak lain?</summary>
+        <p>Tidak. Data hanya dipakai untuk keperluan latihanmu. Tidak ada sharing ke third party, tidak ada iklan.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Cocok untuk tes BUMN / polri / bank?</summary>
+        <p>Ya. Soal kami dirancang menyerupai pola tes rekrutmen Indonesia — termasuk Kraepelin yang jadi andalan.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Bisa latihan berapa kali?</summary>
+        <p>Tanpa batas. Setiap paket bisa diulang berkali-kali dengan soal yang diacak.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Hasilnya resmi?</summary>
+        <p>Tidak. Skor MyPsych adalah indikator latihan internal, bukan norma resmi seleksi. Gunakan untuk memantau perkembangan pribadimu.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     12. CTA FINAL
+     ============================================================ -->
+<section class="final-cta">
+  <div class="container final-cta-inner">
+    <h2>Mulai latihan pertamamu.</h2>
+    <p>Gratis, 2 menit, tanpa kartu kredit.</p>
+    <div class="final-cta-actions">
+      <a href="#" class="btn-white btn-lg">Daftar Sekarang →</a>
+      <a href="#" class="btn-outline-white btn-lg">Coba sebagai Tamu</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     13. FOOTER
+     ============================================================ -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-dot"></span>
+      <span class="brand-text">MyPsych</span>
+      <p>Latihan psikotes gratis dengan tracking progres dan laporan PDF.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Produk</h4>
+      <a href="#">Semua Tes</a>
+      <a href="#kraepelin">Kraepelin</a>
+      <a href="#kategori">Kategori</a>
+      <a href="#fitur">Alat CV ATS</a>
+    </div>
+    <div class="footer-col">
+      <h4>Sumber</h4>
+      <a href="#">Blog</a>
+      <a href="#faq">FAQ</a>
+      <a href="#">Kebijakan Privasi</a>
+      <a href="#">Syarat Layanan</a>
+    </div>
+    <div class="footer-col">
+      <h4>Kontak</h4>
+      <a href="mailto:psikotesbyfadhil@gmail.com">Email</a>
+      <a href="#">Instagram</a>
+      <a href="#">GitHub</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 MyPsych · Dibuat di Indonesia</span>
+    <span>Versi 1.0</span>
+  </div>
+</footer>
+
+</body>
+</html>
